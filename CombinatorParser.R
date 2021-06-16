@@ -4,7 +4,7 @@
           #
           # Monadic combinator recursive descent parsing - very basic,
           # (esp. in  R.) Don't recommend trying to use  this with big
-          # inputs.
+          # inputs. But very useful for small-scale use.
           #
           # Author: Sean Matthews
           # Version: see version control
