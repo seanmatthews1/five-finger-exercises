@@ -3,8 +3,10 @@
           # BEGIN
           #
           # Monadic combinator recursive descent parsing - very basic,
-          # (esp. in  R.) Don't recommend trying to use  this with big
-          # inputs. But very useful for small-scale use.
+          # (esp. in R.)  Don't recommend  trying to use this with big
+          # inputs (If nothing else, it will blow the stack). But very
+          # useful  for small-scale  use -  and a  starting point  for
+          # larger-scale use.
           #
           # Author: Sean Matthews
           # Version: see version control
@@ -58,9 +60,9 @@ return.P <-
 
 as.parser.input <- function (str) {strsplit(str, split="")[[1]]}
 
-          # Highly given we have applied the monad to a string, we can
-          # extract he results (and  throw away any remaining unparsed
-          # component)
+          # Finally, given we  have applied the monad to  a string, we
+          # can  extract  he results  (and  throw  away any  remaining
+          # unparsed component)
 
 extract.parses <-
     function (x) mapply(function(y) y[[1]], x)
