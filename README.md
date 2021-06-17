@@ -28,15 +28,16 @@ use.
    problems.
 
  - RiskAccounting.pl: A complete - production scale - reconstruction
-   of the ETL for risk account for a large bank in Prolog.  I built
-   this for testing purposes for a bank that was trying to merge two
-   such systems. The orignal system for which this is a reference
-   model was written in Oracle and ran overnight on enterprise
-   hardware. My reconstruction ran in 20 minutes on my laptop.  My
-   reconstruction not only systematically verifed all the aggregation
-   in the system (which had never previously been done), but was also
-   able to confirm, for the first time, that the core four rule model
-   for the accounting aggregation was correct.
+   of the ETL for risk accounting for a large bank, written in Prolog.
+   I built this for testing purposes for a bank that was trying to
+   merge two such systems (it started as a personal attempt to
+   understand the accounting logic).  The orignal system for which
+   this is a reference model was written in Oracle and ran overnight
+   on enterprise hardware. My reconstruction ran in 20 minutes on my
+   laptop.  My reconstruction not only systematically verifed all the
+   aggregation logic in the system (which had never previously been
+   done), but was also able to confirm, for the first time, that the
+   core four rule model for the accounting aggregation was correct.
 
  - Sudoko.py: A solver for Sudoko problems in python - pleasingly
    compact, I think.
