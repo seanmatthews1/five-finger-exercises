@@ -8,13 +8,13 @@ use.
  - CombinatorParser.R: A minimal monadic parser for R
 
  - HO: A Julia package for generating optimal cross-hub schedules for
-   the combined fleets of an airline group, using a Multi-agent
+   the combined fleets of an airline group, using a multi-agent
    simulation, with approximate dynamic programming / reinforcement
    learning.
 
- - HiearchicalRegressionDemo.R: a demonstration I constructed for
-   teaching / illustrating how hierarchical regression works.  The
-   script is in R, the inlined model code is in Stan.
+ - HiearchicalRegressionDemo.R: a demonstration I built for teaching /
+   illustrating  how hierarchical  regression  works, specifically  in
+   Stan.  The script is in R.
 
  - OptimalRouting.jl: A small demo using the Cbc mixed integer
    optimisation package from inside Julia. Solves the delivery truck
@@ -32,5 +32,5 @@ use.
 
  - pentominos.jl: implementation in Julia of Knuth's dancing links /
    Algorithm X solution for the exact cover problem.  Set up currently
-   to enumerate complets solution sets for pentomino problems, which
-   is does extremely fast.
+   to enumerate complete solution sets for pentomino problems, which
+   it does very fast.
