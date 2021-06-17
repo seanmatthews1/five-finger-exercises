@@ -33,7 +33,7 @@ use.
    systems (it started as a personal attempt to understand the
    accounting logic).  The original system for which this is a
    reference model was in Oracle and ran overnight on enterprise
-   hardware. This ran in 20 minutes on my laptop.  My reconstruction
+   hardware. My reconstruction ran in 20 minutes on my laptop.  It
    not only systematically verifed all the aggregation logic in the
    system (which had never previously been done), but also confirmed,
    for the first time, that the core four rule model for the
