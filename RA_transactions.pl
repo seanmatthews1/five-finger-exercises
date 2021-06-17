@@ -19,7 +19,7 @@
         %--------------------
 	% deal(Fund, Series, Date, VisibleDate, Type, Amount, Units)
 
-:- [purchaseStructure].
+:- [RA_purchaseStructure].
 
 doTransaction(deal(_Fund, _, D, _, 'P', Amount, Units),
               val(F, PurchaseStructure0, S, H, E),
