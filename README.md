@@ -31,13 +31,19 @@ use.
    risk accounting for a large bank, written in Prolog.  I built this
    for testing purposes for a bank that was trying to merge two such
    systems (it started as a personal attempt to understand the
-   accounting logic).  The orignal system for which this is a
-   reference model was written in Oracle and ran overnight on
-   enterprise hardware. My reconstruction ran in 20 minutes on my
-   laptop.  My reconstruction not only systematically verifed all the
-   aggregation logic in the system (which had never previously been
-   done), but was also able to confirm, for the first time, that the
-   core four rule model for the accounting aggregation was correct.
+   accounting logic).  The original system for which this is a
+   reference model was in Oracle and ran overnight on enterprise
+   hardware. This ran in 20 minutes on my laptop.  My reconstruction
+   not only systematically verifed all the aggregation logic in the
+   system (which had never previously been done), but also confirmed,
+   for the first time, that the core four rule model for the
+   accounting aggregation was correct.
+
+   I think this is a good advertisment for Prolog, which, it turns
+   out, is a very powerful tool for ETL - it would simply not have
+   been possible to build something like this using standard tools,
+   given the available time and resources (though having said that, I
+   think I would use Haskell or ML if I had to do it again).
 
  - Sudoko.py: A solver for Sudoko problems in python - pleasingly
    compact, I think.
