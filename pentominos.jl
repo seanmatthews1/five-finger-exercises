@@ -387,7 +387,7 @@ function solve(n)
     end
 end
 
-# solve(1); println(C)
+# C = 0; solve(1); println(C)
 
           # And, indeed, finds 2339 solutions. Takes <15 seconds on my
           # machine. If we  change the board shape,  finds the correct
