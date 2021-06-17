@@ -14,7 +14,7 @@ use.
 
  - HiearchicalRegressionDemo.R: a demonstration I built for teaching /
    illustrating  how hierarchical  regression  works, specifically  in
-   Stan.  The script is in R (the Stan code is inlineed).
+   Stan.  The script is in R (the Stan code is inlined).
 
  - OptimalRouting.jl: A small demo using the Cbc mixed integer
    optimisation package from inside Julia. Solves the delivery truck
