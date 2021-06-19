@@ -5,12 +5,14 @@ languages.  Some of this stuff works directly on downloading, some
 not. It is provided for illustrative purposes rather than directly for
 use.
 
- - CombinatorParser.R: A minimal monadic parser for R
+ - CombinatorParser.R: A minimal monadic parser in R. Like Fortran,
+   you can sort-of write Haskell code in any functionally flavoured
+   language (sort-of).
 
  - HO: A Julia package for generating optimal cross-hub schedules for
    the combined fleets of an airline group, using a multi-agent
    simulation, with approximate dynamic programming / reinforcement
-   learning.
+   learning. Decent amount of original work here, I think.
 
  - HiearchicalRegressionDemo.R: a demonstration I built for teaching /
    illustrating  how hierarchical  regression  works, specifically  in
@@ -20,12 +22,12 @@ use.
    optimisation package from inside Julia. Solves the delivery truck
    fleet optimal routing problem.
 
- - ResourcePlanningDemo.hs: An implementation in Haskell of the blood
-   bank problem from Powell, Approximate Dynamic Programming. There is
-   some original work here - this shows how to extend an arbitrary
-   mixed-integer model with (low dimensional) convex expectation
-   functions for the purposes of tackling multi-period / multi-echelon
-   problems.
+ - ResourcePlanningDemo.hs: An implementation in Haskell (using GLPK)
+   of the blood bank problem from Powell, Approximate Dynamic
+   Programming. There is some original work here - this shows how to
+   extend an arbitrary mixed-integer model with (low dimensional)
+   convex expectation functions calibrated using ADP, for the purpose
+   of tackling multi-period / multi-echelon problems.
 
  - RA: A complete - production scale - reconstruction of the ETL for
    risk accounting for a large bank, in Prolog.  I built this for
@@ -45,7 +47,7 @@ use.
    given the available time and resources (though having said that, I
    think I would use Haskell or ML if I had to do it again).
 
- - Sudoko.py: A solver for Sudoko problems in python - pleasingly
+ - Sudoko.py: A solver for Sudoko problems in Python - pleasingly
    compact (and fast - Python is not supposed to be fast), I think.
 
  - pentominos.jl: implementation in Julia of Knuth's dancing links /
