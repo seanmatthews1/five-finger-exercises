@@ -46,7 +46,7 @@ use.
    think I would use Haskell or ML if I had to do it again).
 
  - Sudoko.py: A solver for Sudoko problems in python - pleasingly
-   compact, I think.
+   compact (and fast - Python is not supposed to be fast), I think.
 
  - pentominos.jl: implementation in Julia of Knuth's dancing links /
    Algorithm X solution for the exact cover problem.  Set up currently
